@@ -106,3 +106,5 @@ The variables remaining are just the calculated means and standard deviations of
 * fBodyBodyGyroJerkMagMean
 * fBodyBodyGyroJerkMagStd
 * fBodyBodyGyroJerkMagMeanFreq
+
+All these variables are float type
