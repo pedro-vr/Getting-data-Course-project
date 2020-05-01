@@ -1,6 +1,6 @@
 # Getting-data-Course-project
 
-This project includes a R script, run_analysis.R, that makes all the following:
+This project includes the R script "run_analysis.R" that makes all the following:
 
 Download the dataset from web if it does not already exist in my working directory.
 
@@ -8,12 +8,12 @@ Read both the train and test datasets and merge them into x(measurements), y(act
 
 Load the data feature, activity info and extract columns named "mean" and "standard_dev". 
 
-Also, modify column names to descriptive.
+Also, modify column names to descriptive labels.
 
 Extract data by selected columns, and merge x, y(activity) and subject data. 
 
 Replace y(activity) column to it's name by refering activity label.
 
-Generate 'Tidy Dataset' that consists of the average (mean) of each variable for each subject and each activity. 
+Generate the tidy dataset that consists of the average of each variable for each subject and each activity. 
 
-The result is shown in the file tidy_data.txt.
+The final result is saved in a text file named "tidy_data.txt".
